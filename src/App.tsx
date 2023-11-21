@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { ThemeProvider } from './theme/ThemeProvider';
-import { Navigate, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
+import { Navigate, Route, RouterProvider, Routes, createHashRouter } from 'react-router-dom';
 import { Tomatoes } from './components/Tomatoes';
 import { News } from './components/News';
 import { Layout } from './components/Layout';
@@ -35,7 +35,7 @@ const routes = () => {
   );
 };
 
-const router = createBrowserRouter([{ path: '*', Component: routes }]);
+const router = createHashRouter([{ path: '*', Component: routes }]);
 
 const App = () => {
   return (

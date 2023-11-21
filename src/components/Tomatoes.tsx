@@ -139,7 +139,7 @@ export const Tomatoes = () => {
         </Form>
 
         <Figure>
-          <img src="/assets/tomatoes.jpg" alt="" />
+          <img src="/atelier-accessibilite/assets/tomatoes.jpg" alt="" />
         </Figure>
       </Container>
     </>

@@ -105,6 +105,7 @@ export const Tomatoes = () => {
 
   const hasLost = useMemo(() => tries > 2, [tries]);
 
+
   return (
     <>
       <Title>Qui veut gagner des tomates ?</Title>

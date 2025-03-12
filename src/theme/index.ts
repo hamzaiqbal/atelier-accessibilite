@@ -6,7 +6,7 @@ const toRem = (valueInPx: number) => `${valueInPx / 16}rem`;
 
 const theme = {
   colors: {
-    greybase: '#333',
+    greybase: '#1d1d1d',
     greylight: '#aaa',
     white: '#fff',
     black: '#000',

@@ -8,6 +8,7 @@ import { WifiCode } from './components/Wifi/WifiCode';
 import { WifiSuccess } from './components/Wifi/WifiSuccess';
 import { WifiFailure } from './components/Wifi/WifiFailure';
 import './styles.css';
+import { News } from './components/News';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -38,6 +39,7 @@ const routes = () => {
       <Route path="/" element={<Layout />}>
         <Route path="" element={<Navigate to="tomatoes" replace />} />
         <Route path="tomatoes" element={<Tomatoes />} />
+        <Route path="news" element={<News />} />
         <Route path="wifi-code" element={<WifiCode />} />
         <Route path="wifi-form" element={<WifiForm />} />
         <Route path="wifi-success" element={<WifiSuccess />} />
